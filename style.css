@@ -44,3 +44,7 @@ nav > ul > li{
     border: none;
     padding: 10px 18px;
 }
+#bgimage{
+    width: 100vw;
+    height: 500px;
+}
