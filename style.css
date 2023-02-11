@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     top:5%;
-    
 }
+
 #logoHeading{
     font-size: 25px;
     font-family: cursive;
@@ -138,25 +138,76 @@ input::placeholder{
 }
 .middleNavigationContainer{
     margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 
 }
 .middlenavicon{
     height: 13px;
+    cursor: pointer;
 
 }
 .middlenavspan{
     margin: 0px 8px;
     padding: 3px 12px;
+    cursor: pointer;
 }
 #editorButton{
     position: absolute;
     right: 2%;
     background-color: white;
-    padding: 5px 15px;
+    padding: 12px 15px;
     border-radius: 21px;
     border: 1px solid #ceced2;
     font-weight: bold;
-    
+    font-size:16px;
+    cursor: pointer;
+}
+#editorButton:hover{
+    border:1.5px solid black;
+}
+.imageContainer{
+    margin-top: 50px;
+}
+.mountainRoad{
+    margin-left:40px;
+    cursor: pointer;
+}
+.firstRow{
+    display: flex;
+}
+.mountainRoadImage{
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+}
+.spanImageText {
+    display: none;
+    color: white;
+    position: relative;
+    bottom: 27px;
+    right: 216px;
+}
+.likeMark{
+    display: none;
+    position: relative;
+   height: 20px;
+   bottom:252px;
+   right:365px;
+   border-radius: 5px;
+   background-color: white;
+   padding:4px;
+}
+.addToCollectionMark{
+    display: none;
+    position: relative;
+    height:20px;
+    bottom:252px;
+    right:349px;
+    border-radius: 5px;
+    background-color: white;
+    padding:4px;
 }
 
 
