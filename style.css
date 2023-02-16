@@ -176,35 +176,29 @@ input::placeholder{
 }
 .firstRow{
     display: flex;
+    justify-content: space-evenly;
 }
 .mountainRoadImage{
     height:300px;
     width:300px;
     border-radius: 10px;
 }
-.spanImageText {
-    display: none;
-    color: white;
-    position: relative;
-    bottom: 27px;
-    right: 216px;
-}
 .likeMark{
-    display: none;
+    /* display: none; */
     position: relative;
    height: 20px;
    bottom:252px;
-   right:365px;
+   right:261px;
    border-radius: 5px;
    background-color: white;
    padding:4px;
 }
 .addToCollectionMark{
-    display: none;
+    /* display: none; */
     position: relative;
     height:20px;
     bottom:252px;
-    right:349px;
+    right:249px;
     border-radius: 5px;
     background-color: white;
     padding:4px;
