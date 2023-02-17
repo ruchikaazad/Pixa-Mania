@@ -174,7 +174,8 @@ input::placeholder{
     margin-left:40px;
     cursor: pointer;
 }
-.firstRow{
+.row{
+    margin-top: 34px;
     display: flex;
     justify-content: space-evenly;
 }
